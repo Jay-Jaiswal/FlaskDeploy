@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return '''
         <h1>Cloud Computing - Flask App</h1>
-        <p>Welcome! Your Flask app is running successfully.</p>
+        <p>Welcome! Jay Jaiswal .</p>
         <p>Subject: Cloud Computing | Week 2</p>
     '''
 
@@ -16,3 +16,4 @@ def about():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+
